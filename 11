@@ -1,0 +1,4 @@
+let arr = [-1, -2, -3, 4];
+
+ let array = arr.some( x => x > 0);
+ console.log(array);

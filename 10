@@ -1,0 +1,14 @@
+let numbers = [-2, 5, 10, -5, -1, 1, 3, 4, -15];
+
+
+// let filt = numbers.filter(function(item){
+//     if (item >= 0){
+//         return item;
+//     }
+// })
+
+let filt = numbers.filter( x => x >= 0);
+
+
+
+console.log(filt);

@@ -1,0 +1,10 @@
+let array = ["hello", 125, "javascript", "html", 43, "css", "scss", "bootstrap", 88, 59, "python"];
+
+// let newarray = array.filter(function(item){
+//     if (typeof item === 'number'){
+//         return item;
+//     }
+// })
+
+let newarray = array.filter( x => typeof x === 'number');
+console.log(newarray);
